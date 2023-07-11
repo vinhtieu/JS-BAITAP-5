@@ -43,18 +43,19 @@ btn2.addEventListener("click", () => {
 
 const btn3 = document.querySelector("#btn3");
 const result3 = document.querySelector(".bai-3 .result");
-const number = document.querySelector("#num");
+const number = document.querySelector("#numN2");
 
 btn3.addEventListener("click", () => {
   let valueNum = number.value * 1;
   let total = 1;
 
+  console.log(valueNum)
   for (let i = 2; i <= valueNum; i++) {
-    total = total * i;
+    total = (total * i);
   }
 
   result3.classList.add("alert", "alert-success");
-  result3.innerHTML = `<p>Tổng: ${total}</p>`;
+  result3.innerHTML = `<p>Kết Quả: ${total}</p>`;
 });
 
 // Bai 4
