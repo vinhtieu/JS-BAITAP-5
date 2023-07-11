@@ -30,8 +30,9 @@ btn2.addEventListener("click", () => {
   let x = numX.value * 1;
   let n = numN.value * 1;
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 1; i <= n; i++) {
     total += Math.pow(x, i);
+    console.log(total)
   }
 
   console.log(total);
