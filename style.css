@@ -1,0 +1,51 @@
+.container {
+  padding: 50px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+}
+
+.card {
+  padding: 1rem;
+}
+
+.card__title {
+  margin-bottom: 24px;
+  font-size: calc(1rem + 0.9vw);
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+input + input,
+.btn {
+  margin-top: 1rem;
+}
+
+.bai .btn {
+  display: inline-block;
+}
+
+.bai-1 .result {
+  display: grid;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.result p {
+  margin: 0;
+  padding: 0;
+}
+
+.bai-2 .result,.bai-3 .result {
+  margin-top: 1rem;
+}
